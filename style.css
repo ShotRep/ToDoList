@@ -25,17 +25,18 @@ form {
 }
 
 form input {
-  padding: 0.25rem;
+  padding: .1rem;
   font-size: 1.5rem;
+  max-width: 10rem;
   border: none;
   background: white;
 }
 
 form button {    
-  font-size: 1.95rem;
+  font-size: 1.7rem;
   color: #ff6f47;
   border: none;
-  background: white;
+  padding: .0rem;
   padding-right: .25rem;
   padding-left: .25rem;
   cursor: pointer;
@@ -60,7 +61,7 @@ form button:hover {
 }
 
 .todo {
-  margin: 0.25rem;
+  margin: 2.5rem;
   background: white;
   font-size: 1.25rem;
   color: black;
@@ -72,6 +73,7 @@ form button:hover {
 
 .filter-todo {
   padding: .25rem;  
+  min-width: 8rem;
 }
 
 .todo li {
