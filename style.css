@@ -12,8 +12,7 @@ body {
 }
 
 header {
-  font-size: 1.5rem;
-  
+  font-size: 1.5rem;  
 }
 
 header,
@@ -33,10 +32,13 @@ form input {
 }
 
 form button {    
-  font-size: 1.7rem;
+  font-size: 1.65rem;
   color: #ff6f47;
+  background-color: white;
   border: none;
   padding: .0rem;
+  padding-top: .0rem;
+  padding-bottom: .05rem;
   padding-right: .25rem;
   padding-left: .25rem;
   cursor: pointer;
@@ -52,8 +54,7 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2rem, black solid;
-}
+  }
 
 .todo-list {
   min-width: 25rem;
@@ -61,7 +62,7 @@ form button:hover {
 }
 
 .todo {
-  margin: 2.5rem;
+  margin: 1.0rem;
   background: white;
   font-size: 1.25rem;
   color: black;
